@@ -1,0 +1,50 @@
+body{
+    width: 100vw;
+}
+
+#recipes .content::after,
+#recipes .content::before{
+    background-size: 75px 125px;
+}
+
+#recipes #tabs ul {
+    padding: 0 2.5rem;
+    gap: 1rem;
+}
+
+#recipes #tabs ul li {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+#recipes .carousal .card{
+    flex: 1 0 240px;
+}
+
+#banner .container{
+    margin-left: 6rem;
+}
+
+#offers .grid {
+    margin-bottom: 2rem;
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-rows: auto; 
+}
+
+#offers .grid .main-offer {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+#social .grid::after {
+    opacity: 1;
+}
+
+#social .overlay {
+    display: block;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 1.6rem; 
+}
